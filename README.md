@@ -2,6 +2,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/AshishOhri/Yet_Another_Algorithms_Repository)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/AshishOhri/Yet_Another_Algorithms_Repository)
 ![GitHub issues](https://img.shields.io/github/issues/AshishOhri/Yet_Another_Algorithms_Repository)
+![GitHub forks](https://img.shields.io/github/forks/AshishOhri/Yet_Another_Algorithms_Repository?style=social)
 # Yet_Another_Algorithms_Repository
 <i>Beginners are welcome to contribute to this repository!</i>
 <p align="center">
