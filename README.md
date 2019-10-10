@@ -1,5 +1,5 @@
-# Yet_Another_Algorithms_Repository-YAAR
-<i>Beginners contribute to YAAR</i><br>
+# Yet_Another_Algorithms_Repository
+<i>Beginners contribute to the repository</i><br>
 ![AUR license](https://img.shields.io/aur/license/pac)
 <p align="center">
  <a href="https://hacktoberfest.digitalocean.com/">
@@ -21,7 +21,7 @@ Anyone with a knack for programming is free to push!
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/AshishOhri/Yet_Another_Algorithms_Repository-YAAR/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/AshishOhri/Yet_Another_Algorithms_Repository/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 
 ## Authors
@@ -33,7 +33,7 @@ Please read [CONTRIBUTING.md](https://github.com/AshishOhri/Yet_Another_Algorith
   </tr>
  </table>
 
-See also the list of [contributors](https://github.com/AshishOhri/Codes-Algos-and-Stuff/graphs/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/AshishOhri/Yet_Another_Algorithms_Repository/graphs/contributors) who participated in this project.
 
 ## License
 
