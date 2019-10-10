@@ -8,34 +8,7 @@
 
 ## Getting started
 
-* Before beginning your contribution, [create an issue][issue-guide]. In your issue's 
-  description, please describe the addition or change you wish to make. This helps us guide 
-  your contribution, and it lets others know what you're working on.
 
-* [Fork][fork-guide] the repo, clone your fork, and configure the remotes:
-
-   ```bash
-   # Clone your fork of the repo into the current directory
-   git clone https://github.com/<your-username>/Algos.git
-   # Navigate to the newly cloned directory
-   cd Algos
-   # Assign the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/faheel/Algos.git
-   ```
-
-* If you cloned a while ago, get the latest changes from upstream:
-
-   ```bash
-   git checkout master
-   git pull upstream master
-   ```
-
-* Create a new branch (from the `master` branch) to contain your code for a
-   specific algorithm or data structure:
-
-   ```bash
-   git checkout -b <branch-name>
-   ```
 
 ## Writing code
 
