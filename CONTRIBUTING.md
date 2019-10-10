@@ -12,7 +12,7 @@
 * You can simply contribute by using the Github website UI (User Interface).
 
 1. Fork this repository. This will create your own copy of this repo.
-2. Make whatever changes you want (Acc. to the simple rules mentioned below, obviously)
+2. Make whatever changes you want (Acc. to the simple rules mentioned below, obviously :stuck_out_tongue:)
 3. Then, make a pull request.
 4. Your pull request will be merged after review! Simple! Done ! 
 5. Now, repeat !
