@@ -19,7 +19,7 @@ For more information follow this link : https://hacktoberfest.digitalocean.com/<
 Anyone with a knack for programming is free to push!
 
 
-## Contributing
+## Contributing Guidelines
 
 Please read [CONTRIBUTING.md](https://github.com/AshishOhri/Yet_Another_Algorithms_Repository/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
@@ -32,6 +32,8 @@ Please read [CONTRIBUTING.md](https://github.com/AshishOhri/Yet_Another_Algorith
     <td align="center"><a href="https://github.com/AshishOhri"><img src="https://avatars1.githubusercontent.com/u/44030156?s=460&v=4" width="100px;" alt="Ashish Ohri"/><br /><sub><b>Ashish Ohri</b></sub></a></td>
   </tr>
  </table>
+
+## Contributors
 
 See also the list of [contributors](https://github.com/AshishOhri/Yet_Another_Algorithms_Repository/graphs/contributors) who participated in this project.
 
