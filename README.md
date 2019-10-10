@@ -45,4 +45,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 * <a href="https://github.com/all-contributors">all-contributors</a>
 * <a href="https://gist.github.com/PurpleBooth/109311bb0361f32d87a2">PupleBooth</a>
+* [keon/algorithms/CONTRIBUTING.md](https://github.com/keon/algorithms/blob/master/CONTRIBUTING.md)
+* [faheel/Algos/CONTRIBUTING.md](https://github.com/faheel/Algos/blob/master/.github/CONTRIBUTING.md)
+* [iiitv/algos/CONTRIBUTING.md](https://github.com/iiitv/algos/blob/master/CONTRIBUTING.md)
 
