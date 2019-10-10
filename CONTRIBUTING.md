@@ -6,6 +6,7 @@
 
 ## Getting started
 
+* 
 
 
 ## Writing code
@@ -56,17 +57,9 @@
 1. Once your pull request has been opened, we'll review it and go from there. :smile:
 
 
-<a name="sa"></a>
-
-## Suggesting an algorithm / DS
 
 * First make sure you are not suggesting a duplicate.
-* If not, proceed and create the issue. Make sure that you specify only one language in an issue. Create multiple issues for different languages.
-* Title of issue should be of the following format -
-    ```
-        Algorithm/DS Name [Language]
-    ```
-* Please include at least one external link for the algorithm/DS in the issue's body for each issue. The link should explain the algorithm/problem/DS in detail.
+
 
 
 
