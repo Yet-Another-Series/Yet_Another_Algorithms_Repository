@@ -2,13 +2,14 @@
 
 <img src='images/hacktoberfest-img.svg'>
 
+<i>Contribute now and get a chance to earn a free tee!<br>
+For more information follow this link : https://hacktoberfest.digitalocean.com/</i>
 # Algorithms and Data Structures
-
 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+This repository is beginner friendly and anyone can add new algorithms and data structes. We would also consider better and optimized implementations. Also, everyone is free to use any language they want to and are comfortable with.
 
 ### Prerequisites
 
@@ -76,7 +77,12 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/iam-Shashank"><img src="https://avatars0.githubusercontent.com/u/34963991?s=460&v=4" width="100px;" alt="Shashank Agrawal"/><br /><sub><b>Shashank Agrawal</b></sub></a></td>
+    <td align="center"><a href="https://github.com/AshishOhri"><img src="https://avatars1.githubusercontent.com/u/44030156?s=460&v=4" width="100px;" alt="Ashish Ohri"/><br /><sub><b>Ashish Ohri</b></sub></a></td>
+  </tr>
+ </table>
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
@@ -86,7 +92,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
+* <a href="https://github.com/all-contributors">all-contributors</a>
 * Inspiration
 * etc
 
