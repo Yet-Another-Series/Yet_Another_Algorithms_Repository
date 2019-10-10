@@ -2,7 +2,6 @@
 
 * [Getting started](#getting-started)
 * [Writing code](#writing-code)
-* [Adding unit tests](#adding-unit-tests)
 * [Opening a pull request](#opening-a-pull-request)
 * [Code of conduct](#code-of-conduct)
 
@@ -39,20 +38,6 @@
 
 
 ## Opening a pull request
-
-Follow these steps when you're ready to submit your code:
-
-1. Locally merge (or rebase) the upstream development branch into your branch:
-
-   ```bash
-   git pull [--rebase] upstream master
-   ```
-
-1. Push your branch up to your fork:
-
-   ```bash
-   git push origin <branch-name>
-   ```
 
 1. [Open a pull request][pr-guide] with a clear title and description against the
    `master` branch. Your pull request should reference the same issue you created 
@@ -103,10 +88,6 @@ This project has a [Code of Conduct](CODE_OF_CONDUCT.md). Please follow it in al
 * Use meaningful variable, method and function names and comments.
 * No profanity.
 * Use external libraries only when no other solution is possible/plausible.
-* We have defined [skeleton codes](#samples) for some popular languages below. Please follow them whenever possible.
-
-
-
 
 
 <a name="improving"></a>
