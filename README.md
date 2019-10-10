@@ -1,7 +1,7 @@
 # HACKTOBERFEST IS LIVE!!
 ![AUR license](https://img.shields.io/aur/license/pac)
 <br>
-<img src='images/hacktoberfest-img.svg'>
+<img src='images/hacktoberfest-img.svg' width="500" height="500" align="center">
 
 :tada: :sparkles:<i>Contribute now and get a chance to earn a free tee!:sparkles: :tada:<br>
 For more information follow this link : https://hacktoberfest.digitalocean.com/</i>
@@ -10,7 +10,8 @@ For more information follow this link : https://hacktoberfest.digitalocean.com/<
 
 ## Getting Started
 
-This repository is beginner friendly and anyone can add new algorithms and data structures. Contributors proposing better and optimized implementations would be supported as well. Also, everyone is free to contribute in any of the the languages mentioned in the <a href="#contributing">Contributing Guidelines</a>.
+* This repository is beginner friendly and anyone can add new algorithms and data structures. 
+* Also, everyone is free to contribute in any of the the languages mentioned in the <a href="#contributing">Contributing Guidelines</a>.
 
 ### Prerequisites
 
