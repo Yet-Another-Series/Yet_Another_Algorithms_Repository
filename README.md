@@ -1,6 +1,6 @@
-# Yet_Another_Algorithms_Repository
-<i>Beginners are welcome to contribute to this repository</i><br>
 ![AUR license](https://img.shields.io/aur/license/pac)
+# Yet_Another_Algorithms_Repository
+<i>Beginners are welcome to contribute to this repository</i>
 <p align="center">
  <a href="https://hacktoberfest.digitalocean.com/">
 <img src='images/hacktoberfest-img.svg' width="400" height="400" align="center">
