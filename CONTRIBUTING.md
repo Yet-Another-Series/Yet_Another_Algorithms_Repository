@@ -52,7 +52,7 @@ _In case you're interested, here's a quick guide to Git. [Link](https://rogerdud
 * adding a different solution for the problem.
 * finding and fixing bugs.
 
-<br>
+
 __________________________________
 
 <br>
