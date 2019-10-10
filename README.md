@@ -1,5 +1,5 @@
 # Yet_Another_Algorithms_Repository
-<i>Beginners contribute to the repository</i><br>
+<i>Beginners are welcome to contribute to this repository</i><br>
 ![AUR license](https://img.shields.io/aur/license/pac)
 <p align="center">
  <a href="https://hacktoberfest.digitalocean.com/">
