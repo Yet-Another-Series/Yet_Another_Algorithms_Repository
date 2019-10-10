@@ -54,6 +54,7 @@ _In case you're interested, here's a quick guide to Git. [Link](https://rogerdud
 
 <br>
 __________________________________
+
 <br>
 ### Acknowledgement:
 * These contributing guidelines were framed with some help/ inspiration from the following repos:
