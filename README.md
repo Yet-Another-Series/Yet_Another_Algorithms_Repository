@@ -2,7 +2,9 @@
 ![AUR license](https://img.shields.io/aur/license/pac)
 <br>
 <p align="center">
+ <a href="https://hacktoberfest.digitalocean.com/">
 <img src='images/hacktoberfest-img.svg' width="400" height="400" align="center">
+  </a>
 </p>
 :tada: :sparkles:<i>Contribute now and get a chance to earn a free tee!:sparkles: :tada:<br>
 For more information follow this link : https://hacktoberfest.digitalocean.com/</i>
