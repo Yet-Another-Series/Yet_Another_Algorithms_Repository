@@ -5,9 +5,12 @@
 
 
 
-## Getting started
+## Simple Steps to Get Started:
 
+* If you are new to Github / Git, no need to get intimidated. 
+* You can simply contribute by using the Github website UI (User Interface).
 * 
+
 
 ## File Naming Guidelines:
 
@@ -17,8 +20,7 @@
 
 ## Writing code
 
-* Commit your changes in logical chunks. Use Git's [interactive rebase][rebase-guide]
-  feature to tidy up your commits before making them public.
+
 
 * For each algorithm, mention its **time complexity** and **space complexity**
   in the _"description comment"_ of its implementation. In case the average-case
