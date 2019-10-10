@@ -1,12 +1,18 @@
 ## Contents
 
 * [Getting started](#getting-started)
+* [File Naming Guidelines](#file-Naming-Guidelines)
 
 
 
 ## Getting started
 
 * 
+
+## File Naming Guidelines:
+
+* For Data Structures, file names should be of the format: <Language>-<Data Structure>-<Version Number>
+* For Algorithms, file names should be of the format: <Language>-<Data Structure>-<Time Complexity>-<Version Number>
 
 
 ## Writing code
