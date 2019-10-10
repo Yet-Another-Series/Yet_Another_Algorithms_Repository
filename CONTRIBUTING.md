@@ -7,7 +7,7 @@
 
 ## Simple Steps to Get Started:
 
-* If you are new to Github / Git, no need to get intimidated. 
+* **If you are new to Github / Git, no need to get intimidated.**
 * You can simply contribute by using the Github website UI (User Interface).
 
 1. Fork this repository. This will create your own copy of this repo.
@@ -15,6 +15,8 @@
 3. Then, make a pull request.
 4. Your pull request will be merged after review! Simple! Done ! 
 5. Now, repeat !
+
+_In case you're interested, here's a quick guide to Git. [Link](https://rogerdudler.github.io/git-guide/)_
 
 
 ## File & Folder Naming Guidelines:
@@ -34,7 +36,7 @@
   _For eg: python-factorial-O(n).py_
 * Version Number is used when there is already an implementation of an algorithm/data structure and you want to submit a better implementation.  
 * Use separate folders for each concept under the Algorithm/ Data Structure directory. Folder name should be in full lowercase. If the algorithm/DS name has multiple words, separate them by underscores. 
-_For eg: linked_list folder in Data_Structures folder_
+  _For eg: linked_list folder in Data_Structures folder_
 
 ## Writing code:
 
