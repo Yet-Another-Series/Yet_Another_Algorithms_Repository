@@ -11,7 +11,7 @@ For more information follow this link : https://hacktoberfest.digitalocean.com/<
 
 ## Getting Started
 
-* This repository is beginner friendly and anyone can add new algorithms and data structures. 
+* This repository is **beginner friendly** and anyone can add new algorithms and data structures. 
 * Also, everyone is free to contribute in any of the the languages mentioned in the <a href="https://github.com/AshishOhri/Yet_Another_Algorithms_Repository/blob/master/CONTRIBUTING.md">Contributing Guidelines</a>.
 
 ### Prerequisites
@@ -21,7 +21,7 @@ Anyone with a knack for programming is free to push!
 
 ## Contributing Guidelines
 
-Please read [CONTRIBUTING.md](https://github.com/AshishOhri/Yet_Another_Algorithms_Repository/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/AshishOhri/Yet_Another_Algorithms_Repository/blob/master/CONTRIBUTING.md) for details on how to get started and submit pull requests to us.
 
 
 ## Authors
