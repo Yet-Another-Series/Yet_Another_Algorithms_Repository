@@ -160,8 +160,7 @@ This program is implemented through a menu driven loop
 Note that all values of the keys (nodes) are taken to be integer
 '''
 while True:
-    n=input('1.PushFront(Key)\n2.TopFront()\n3.PopFront()\n4.PushBack(Key)\n5.TopBack()\n6.PopBack()\
-    \n7.Find(Key)\n8.Erase(Key)\n9.Empty()\n10.AddBefore(Node,Key)\n11.AddAfter(Node,Key)\n12.Disp\nand any other key to exit ')
+    n=input('1.PushFront(Key)\n2.TopFront()\n3.PopFront()\n4.PushBack(Key)\n5.TopBack()\n6.PopBack()\n7.Find(Key)\n8.Erase(Key)\n9.Empty()\n10.AddBefore(Node,Key)\n11.AddAfter(Node,Key)\n12.Disp\nand any other key to exit ')
     if n=='1':
         PushFront(int(input('Key: ')))
     elif n=='2':
