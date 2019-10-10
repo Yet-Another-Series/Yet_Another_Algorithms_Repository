@@ -2,9 +2,9 @@
 
 <img src='images/hacktoberfest-img.svg'>
 
-# Project Title
+# Algorithms and Data Structures
 
-One Paragraph of project description goes here
+
 
 ## Getting Started
 
