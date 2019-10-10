@@ -21,17 +21,17 @@
 
 * File name should be in full lowercase.
 * Names for referencing all 5 languages should be as follows: python, c, cpp, java, js
-* For Data Structures, file names should be of the format: 
+- For Data Structures, file names should be of the format: 
 ```
 <Language>-<Data Structure>-<Version Number>
 ```
- * For eg: python-singly_linked_list.py
+  - For eg: python-singly_linked_list.py
  
-* For Algorithms, file names should be of the format:
+- For Algorithms, file names should be of the format:
 ```
 <Language>-<Data Structure>-<Time Complexity>-<Version Number>
 ```
- * For eg: python-factorial-O(n).py
+  - For eg: python-factorial-O(n).py
 * Version Number is used when there is already an implementation of an algorithm/data structure and you want to submit a better implementation.  
 * Use separate folders for each concept under the Algorithm/ Data Structure directory. Folder name should be in full lowercase. If the algorithm/DS name has multiple words, separate them by underscores. 
   * For eg: linked_list folder in Data_Structures folder
