@@ -19,10 +19,19 @@
 
 ## File & Folder Naming Guidelines:
 
-* For Data Structures, file names should be of the format: <Language>-<Data Structure>-<Version Number>
-  * For eg: Python-singly_linked_list.py
-* For Algorithms, file names should be of the format: <Language>-<Data Structure>-<Time Complexity>-<Version Number>
-  * For eg: Python-factorial_O(n).py
+* File name should be in full lowercase.
+* Names for referencing all 5 languages should be as follows: python, c, cpp, java, js
+* For Data Structures, file names should be of the format: 
+```
+<Language>-<Data Structure>-<Version Number>
+```
+* For eg: python-singly_linked_list.py
+* For Algorithms, file names should be of the format:
+```
+<Language>-<Data Structure>-<Time Complexity>-<Version Number>
+```
+ * For eg: Python-factorial_O(n).py
+
 * Use separate folders for each concept under the Algorithm/ Data Structure directory. Folder name should be in full lowercase. If the algorithm/DS name has multiple words, separate them by underscores. 
   * For eg: linked_list folder in Data_Structures folder
 
@@ -39,9 +48,7 @@
 * optimizing or improving the existing algorithms.
 * adding a different solution for the problem.
 * finding and fixing bugs.
-* adding examples to explain the algorithms better.
-* adding test cases.
-* improving documentation.
+
 
 
 
