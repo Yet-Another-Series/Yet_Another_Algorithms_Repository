@@ -1,5 +1,6 @@
 # HACKTOBERFEST IS LIVE!!
 ![AUR license](https://img.shields.io/aur/license/pac)
+<br>
 <img src='images/hacktoberfest-img.svg'>
 
 <i>Contribute now and get a chance to earn a free tee!<br>
