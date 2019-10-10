@@ -36,7 +36,7 @@ _In case you're interested, here's a quick guide to Git. [Link](https://rogerdud
   _For eg: python-factorial-O(n).py_
 * Version Number is used when there is already an implementation of an algorithm/data structure and you want to submit a better implementation.  
 * Use separate folders for each concept under the Algorithm/ Data Structure directory. Folder name should be in full lowercase. If the algorithm/DS name has multiple words, separate them by underscores. 
-  _For eg: linked_list folder in Data_Structures folder_
+ <br> _For eg: linked_list folder in Data_Structures folder_
 
 ## Writing code:
 
