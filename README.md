@@ -3,7 +3,7 @@
 <br>
 <img src='images/hacktoberfest-img.svg'>
 
-<i>Contribute now and get a chance to earn a free tee!<br>
+:tada: :sparkles:<i>Contribute now and get a chance to earn a free tee!:sparkles: :tada:<br>
 For more information follow this link : https://hacktoberfest.digitalocean.com/</i>
 # Algorithms and Data Structures
 
