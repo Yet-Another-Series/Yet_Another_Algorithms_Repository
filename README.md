@@ -12,7 +12,7 @@ For more information follow this link : https://hacktoberfest.digitalocean.com/<
 ## Getting Started
 
 * This repository is beginner friendly and anyone can add new algorithms and data structures. 
-* Also, everyone is free to contribute in any of the the languages mentioned in the <a href="#contributing">Contributing Guidelines</a>.
+* Also, everyone is free to contribute in any of the the languages mentioned in the <a href="#contributing-guidelines">Contributing Guidelines</a>.
 
 ### Prerequisites
 
