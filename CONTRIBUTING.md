@@ -1,10 +1,12 @@
 ## Contents
 
-* [Getting started](#Getting-Started)
-* [File Naming Guidelines](#File-Naming-Guidelines)
+* [Various Ways to Contribute](#Various Ways to Contribute)
+* [Simple Steps to Get Started](#Simple Steps to Get Started)
+* [File & Folder Naming Guidelines](#File & Folder-Naming-Guidelines)
 * [Writing code](#Writing-Code)
 
 
+## Various Ways to Contribute:
 
 ## Simple Steps to Get Started:
 
@@ -12,17 +14,19 @@
 * You can simply contribute by using the Github website UI (User Interface).
 
 1. Fork this repository. This will create your own copy of this repo.
-2. Make whatever changes you want (Acc. to the simple rules mentioned below, obviously :stuck_out_tongue:)
+2. Make whatever changes you want (Acc. to the simple rules mentioned below, obviously)
 3. Then, make a pull request.
 4. Your pull request will be merged after review! Simple! Done ! 
 5. Now, repeat !
 
 
-## File Naming Guidelines:
+## File & Folder Naming Guidelines:
 
 * For Data Structures, file names should be of the format: <Language>-<Data Structure>-<Version Number>
+  * For eg: Python-singly_linked_list.py
 * For Algorithms, file names should be of the format: <Language>-<Data Structure>-<Time Complexity>-<Version Number>
-* Use separate folders for each concept. Folder name should be in full lowercase. If the algorithm/DS name has multiple words, separate them by underscores. (eg `longest_common_subsequence`)
+  * For eg: Python-factorial_O(n).py
+* Use separate folders for each concept under the Algorithm/ Data Structure directory. Folder name should be in full lowercase. If the algorithm/DS name has multiple words, separate them by underscores. (eg linked_list folder in Data_Structures folder)
 
 ## Writing code
 
