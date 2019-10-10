@@ -37,13 +37,6 @@
 
 * Before you push your changes to GitHub, make sure that your code compiles and runs without any errors or warnings.
 
-## Adding unit tests
-
-* As stated above, all algorithms and data structures are verified via unit tests.
-  
-* Please make sure that your contribution includes a variety of unit tests and that all of your unit tests pass.
-
-* You can find more information about writing unit tests [here](../C++/CONTRIBUTING.md). 
 
 ## Opening a pull request
 
