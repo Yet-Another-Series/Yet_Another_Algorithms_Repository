@@ -1,7 +1,7 @@
 ![AUR license](https://img.shields.io/aur/license/pac)
 ![GitHub contributors](https://img.shields.io/github/contributors/AshishOhri/Yet_Another_Algorithms_Repository)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/AshishOhri/Yet_Another_Algorithms_Repository)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues-raw/AshishOhri/Yet_Another_Algorithms_Repository)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AshishOhri/Yet_Another_Algorithms_Repository)
+![GitHub issues](https://img.shields.io/github/issues/AshishOhri/Yet_Another_Algorithms_Repository)
 # Yet_Another_Algorithms_Repository
 <i>Beginners are welcome to contribute to this repository!</i>
 <p align="center">
