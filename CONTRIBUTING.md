@@ -10,11 +10,11 @@
 * If you are new to Github / Git, no need to get intimidated. 
 * You can simply contribute by using the Github website UI (User Interface).
 
-- Fork this repository. This will create your own copy of this repo.
-- Make whatever changes you want (Acc. to the simple rules mentioned below, obviously)
-- Then, make a pull request.
-- Your pull request will be merged after review! Simple! Done ! 
-- Now, repeat !
+1. Fork this repository. This will create your own copy of this repo.
+2. Make whatever changes you want (Acc. to the simple rules mentioned below, obviously)
+3. Then, make a pull request.
+4. Your pull request will be merged after review! Simple! Done ! 
+5. Now, repeat !
 
 
 ## File Naming Guidelines:
