@@ -57,6 +57,7 @@ __________________________________
 
 <br>
 ### Acknowledgement:
+
 * These contributing guidelines were framed with some help/ inspiration from the following repos:
   * [keon/algorithms/CONTRIBUTING.md](https://github.com/keon/algorithms/blob/master/CONTRIBUTING.md)
   * [faheel/Algos/CONTRIBUTING.md](https://github.com/faheel/Algos/blob/master/.github/CONTRIBUTING.md)
