@@ -1,4 +1,4 @@
-## HACKTOBERFEST IS LIVE!!
+# HACKTOBERFEST IS LIVE!!
 
 <img src='images/hacktoberfest-img.svg'>
 
