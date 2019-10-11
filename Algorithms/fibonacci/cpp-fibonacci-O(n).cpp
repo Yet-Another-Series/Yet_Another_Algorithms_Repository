@@ -22,15 +22,26 @@ class fibonacci
 	
 	void display()
 	{
-		cout<<a<<" "<<b;
-		for (long i=0;i<inp;i++)
+		if(inp==1)
 		{
-			sum = a+b;
-			cout<<" "<<sum;
-			a=b;
-			b=sum;
+			cout<<"0";
 		}
-		cout<<endl;
+		else if(inp==2)
+		{
+			cout<<"0 1";
+		}
+		else
+		{
+			cout<<a<<" "<<b;
+			for (long i=0;i<inp;i++)
+			{
+				sum = a+b;
+				cout<<" "<<sum;
+				a=b;
+				b=sum;
+			}
+			cout<<endl;
+		}
 	}
 };
 
