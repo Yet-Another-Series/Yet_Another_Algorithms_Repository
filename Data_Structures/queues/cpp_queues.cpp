@@ -7,7 +7,7 @@ using namespace std;
 
 // function to prevent wrong inputs
 template <typename T>
-T get_int(const char * message, T _resp) {
+T get_input(const char * message, T _resp) {
 	cout << message;
 	T resp;
 	while(!(cin >> resp)){
@@ -28,12 +28,12 @@ template <typename T>
 class cppQueue {
 	public:
 	vector<T> v;
-	friend T get_int(const char *);
+	friend T get_input(const char *);
 	
 	// enqueue, dequeue, isEmpty, peek, display
 	void enqueue() {
 		T value;
-		value = get_int("Enter value to add to the queue: ", value);
+		value = get_input("Enter value to add to the queue: ", value);
 		v.push_back(value);	
 		cout << "Enqueued " << value << " successfully\n";
 	}
@@ -99,7 +99,7 @@ int main() {
 		cout << "6: Quit                               *\n";
 		cout << "***************************************\n";
 		
-		resp = get_int("Choice: ", resp);
+		resp = get_input("Choice: ", resp);
 	
 		switch (resp) {
 			case 1:	
