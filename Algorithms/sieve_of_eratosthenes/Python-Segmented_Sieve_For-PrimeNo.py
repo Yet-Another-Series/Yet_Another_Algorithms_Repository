@@ -50,5 +50,8 @@ def segmentedSieve(n):
     
     
     
-N = int(input())
-print(segmentedSieve(N))
+#N = int(input())
+#for testing purpose taking N=10**5
+N = 10**5
+#printing only first 100 terms for testing purpose
+print(segmentedSieve(N)[:100])
