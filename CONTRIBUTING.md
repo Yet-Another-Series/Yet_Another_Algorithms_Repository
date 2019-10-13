@@ -1,7 +1,7 @@
 ## Contents
 
 * [Simple Steps to Get Started](#Simple-Steps-to-Get-Started)
-* [File & Folder Naming Guidelines](#File-and-Folder-Naming-Guidelines)
+* [File and Folder Naming Guidelines](#File-and-Folder-Naming-Guidelines)
 * [Writing code](#Writing-Code)
 * [Various Ways to Contribute](#Various-Ways-to-Contribute)
 
@@ -19,7 +19,7 @@
 _In case you're interested, here's a quick guide to Git. [Link](https://rogerdudler.github.io/git-guide/)_
 
 
-## File & Folder Naming Guidelines:
+## File and Folder Naming Guidelines:
 
 * File name should be in **full lowercase**.
 * Names for referencing all 5 languages should be as follows: python, c, cpp, java, js
