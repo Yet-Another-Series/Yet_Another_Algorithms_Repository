@@ -34,8 +34,8 @@ def Enqueue(Key):
 def KeyFront():
     if Empty():
         return "Underflow"
-    else:
-        return Queue.front.data
+    
+    return Queue.front.data
 
 def Dequeue():
     if Empty():
@@ -53,7 +53,7 @@ def Disp():
         print(None)
     else:
         temp=Queue.front
-        while temp!=None:
+        while temp is not None:
             print(temp.data)
             temp=temp.next
 
