@@ -45,6 +45,7 @@ _In case you're interested, here's a quick guide to Git. [Link](https://rogerdud
 * Use meaningful variable, method and function names and comments.
 * No profanity.
 * If you feel you can improve upon an implementation( with regard to coding practices, complexity), then you can submit your code keeping in mind the File & Folder Naming Guidelines.
+* Please NOTE: In case, same implementation of an algorithm is submitted by someone else and it gets accepted, then your contribution won't be merged ( to avoid duplicates ).
 
 ## Various Ways to Contribute:
 * implementing new algorithms in the repo, under the right section. Make a new section for it if it doesn't fall under any section. Make sure that your implementation works.
