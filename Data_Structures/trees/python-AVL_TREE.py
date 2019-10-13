@@ -16,7 +16,7 @@ class AVL_Tree(object):
 
     #function for insertion of new node in avl tree
     def insert(self,root,val):
-        if root == None:
+        if root is None:
             return TreeNode(val)
         elif val <root.val :
             root.left = self.insert(root.left,val)
@@ -58,16 +58,17 @@ class AVL_Tree(object):
         elif val>root.val: 
             root.right = self.deleteNode(root.right,val) 
         else:
-            if root.left==None and root.right==None:
+            if root.left is None and root.right is None:
                 root = None 
                 return root 
-            if root.left==None:
+            if root.left is None:
                 temp = root.right
-                root = None 
+                #root = None 
                 return temp 
-            if root.right==None:
+            
+            if root.right is None:
                 temp = root.left 
-                root = None 
+                #root = None 
                 return temp 
             #if both the child are present 
             temp = self.getMinValueNode(root.right)
@@ -75,8 +76,10 @@ class AVL_Tree(object):
             root.right = self.deleteNode(root.right,temp.val) 
             
         #if tree is only one node simply return it 
-        if root is None:
-            return 
+        #if root is None:
+        #   return 
+        
+        
         #step - 2 update the  height of ancestor 
         root.height = 1 + max(self.height(root.left),self.height(root.right))
         
@@ -145,7 +148,7 @@ class AVL_Tree(object):
 
     #function to perform preOrder traversal
     def preOrder(self,root):
-        if root==None:
+        if root is None:
             return
         print(root.val,end=' ')
         self.preOrder(root.left)
