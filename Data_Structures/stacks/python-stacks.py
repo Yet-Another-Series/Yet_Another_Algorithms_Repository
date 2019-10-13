@@ -29,26 +29,26 @@ def Push(Key):
 def KeyTop():
     if Empty():
         return "Underflow"
-    else:
-        return Stack.top.data
+    
+    return Stack.top.data
 
 def KeyPop():
     if Empty():
         return "Underflow"
-    else:
-        _=Stack.top
-        Stack.top=Stack.top.next
-        return _.data
+    
+    _=Stack.top
+    Stack.top=Stack.top.next
+    return _.data
 
 def Empty():
-    return Stack.top==None
+    return Stack.top is None
 
 def Disp():
     if Empty():
         print(None)
     else:
         temp=Stack.top
-        while temp!=None:
+        while temp is not None:
             print(temp.data)
             temp=temp.next
 
