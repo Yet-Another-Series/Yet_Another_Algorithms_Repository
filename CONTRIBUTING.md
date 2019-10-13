@@ -1,7 +1,7 @@
 ## Contents
 
 * [Simple Steps to Get Started](#Simple-Steps-to-Get-Started)
-* [File & Folder Naming Guidelines](#File-&-Folder-Naming-Guidelines)
+* [File & Folder Naming Guidelines](#File-and-Folder-Naming-Guidelines)
 * [Writing code](#Writing-Code)
 * [Various Ways to Contribute](#Various-Ways-to-Contribute)
 
@@ -21,7 +21,7 @@ _In case you're interested, here's a quick guide to Git. [Link](https://rogerdud
 
 ## File & Folder Naming Guidelines:
 
-* File name should be in full lowercase.
+* File name should be in **full lowercase**.
 * Names for referencing all 5 languages should be as follows: python, c, cpp, java, js
 * For Data Structures, file names should be of the format: 
 ```
@@ -57,7 +57,7 @@ __________________________________
 
 <br>
 
-### Acknowledgement:
+## Acknowledgement:
 
 * These contributing guidelines were framed with some help/ inspiration from the following repos:
   * [keon/algorithms/CONTRIBUTING.md](https://github.com/keon/algorithms/blob/master/CONTRIBUTING.md)
