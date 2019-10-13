@@ -3,7 +3,7 @@
 * [Simple Steps to Get Started](#Simple-Steps-to-Get-Started)
 * [File & Folder Naming Guidelines](#File-&-Folder-Naming-Guidelines)
 * [Writing code](#Writing-Code)
-* [Various Ways to Contribute](#Various-Ways-to--Contribute)
+* [Various Ways to Contribute](#Various-Ways-to-Contribute)
 
 ## Simple Steps to Get Started:
 
