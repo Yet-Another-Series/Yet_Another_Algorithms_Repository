@@ -1,20 +1,19 @@
 const bubbleSort = (array) => {
-    let tempArray = array;
     let temp;
     let canSwap = true;
 
     while (canSwap) {
         canSwap = false;
-        for (let i = 0; i < tempArray.length; i++) {
-            if (tempArray[i] > tempArray[i + 1]) {
-                temp = tempArray[i];
-                tempArray[i] = tempArray[i + 1]
-                tempArray[i + 1] = temp;
+        for (let i = 0; i < array.length; i++) {
+            if (array[i] > array[i + 1]) {
+                temp = array[i];
+                array[i] = array[i + 1]
+                array[i + 1] = temp;
                 canSwap = true;
             }
         }
     }
-    return tempArray;
+    return array;
 }
 
 module.exports = bubbleSort;
