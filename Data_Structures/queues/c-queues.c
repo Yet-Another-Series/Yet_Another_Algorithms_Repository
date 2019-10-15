@@ -7,6 +7,8 @@ typedef struct s_queue
     struct s_queue *next;
 } t_queue;
 
+typedef enum { false, true } bool;
+
 int front(t_queue *head)
 {
     return (head->data);
@@ -18,6 +20,13 @@ int back(t_queue *head)
         head = head->next;
     }
     return (head->data);
+}
+
+bool empty(t_queue *head)
+{
+    if (head == NULL)
+        return (true);
+    return (false);
 }
 
 void push(t_queue **head, int data)
