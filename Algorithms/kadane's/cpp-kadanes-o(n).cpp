@@ -25,6 +25,7 @@ int main (int argc,  char** argv) {
       current_sum += a[i];
     }
     
+// if current sum is greater than max sum till now, then update the value of max sum
     max_sum_till_now = max_sum_till_now > current_sum? max_sum_till_now : current_sum;
   }
   
