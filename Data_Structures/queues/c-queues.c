@@ -7,6 +7,19 @@ typedef struct s_queue
     struct s_queue *next;
 } t_queue;
 
+int front(t_queue *head)
+{
+    return (head->data);
+}
+
+int back(t_queue *head)
+{
+    while (head->next != NULL) {
+        head = head->next;
+    }
+    return (head->data);
+}
+
 void push(t_queue **head, int data)
 {
     t_queue *new = malloc(sizeof(t_queue));
@@ -35,6 +48,14 @@ void emplace(t_queue **head, int data)
     tmp->next = new;
 }
 
+void pop(t_queue **head)
+{
+    t_queue *new = *head;
+
+    (*head) = (*head)->next;
+    free(new);
+}
+
 void display_list(t_queue *head)
 {
     printf("Displaying:\n");
@@ -47,9 +68,11 @@ void display_list(t_queue *head)
 int main()
 {
     t_queue *test = NULL;
-    // push(&test, 5);
-    // push(&test, 16);
     emplace(&test, 69);
+    // pop(&test);
+    push(&test, 1);
+    push(&test, 5);
+    printf("%d\n", back(test));
     display_list(test);
     return (0);
 }
