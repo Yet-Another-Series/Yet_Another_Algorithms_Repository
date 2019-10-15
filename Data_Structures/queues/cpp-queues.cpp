@@ -5,11 +5,11 @@
 
 using namespace std;
 
-// function to prevent wrong inputs
-template <typename T>
-T get_input(const char * message, T _resp) {
+// function to get the input of type "inp_type" and prevent any wrong input
+template <typename inp_type>
+inp_type get_input(const char * message, inp_type _resp) {
 	cout << message;
-	T resp;
+	inp_type resp;
 	while(!(cin >> resp)){
 		cout << "Input failed...try again\n";
 		cin.clear();
@@ -22,17 +22,18 @@ T get_input(const char * message, T _resp) {
 }
 
 /*********** Implementation ************/
-// Generic queue of type T
+// Generic queue of type "queue_type"
 // uses a vector for dynamic storage
-template <typename T>
+template <typename queue_type>
 class cppQueue {
 	public:
-	vector<T> v;
-	friend T get_input(const char *);
+	vector<queue_type> v;
+	template<class inp_type>
+	friend inp_type get_input(const char *, inp_type _resp);
 	
 	// enqueue, dequeue, isEmpty, peek, display
 	void enqueue() {
-		T value;
+		queue_type value;
 		value = get_input("Enter value to add to the queue: ", value);
 		v.push_back(value);	
 		cout << "Enqueued " << value << " successfully\n";
@@ -43,7 +44,7 @@ class cppQueue {
 			cout << "!!!Empty queue!!!\n";
 			return;
 		}
-		T t = v[0];
+		queue_type t = v[0];
 		v.erase(v.begin());
 		cout << "Dequeued " << t << endl;
 	}
@@ -52,7 +53,7 @@ class cppQueue {
 		cout << ((v.size() == 0)?"True":"False") << endl;
 	}
 
-	T peek() {
+	queue_type peek() {
 		if(_isEmpty()) 
 			cout <<"!!!Empty queue!!!\n";
 		 else
