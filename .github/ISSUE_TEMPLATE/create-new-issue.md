@@ -2,7 +2,7 @@
 name: Create new issue
 about: Describe this issue template's purpose here.
 title: ''
-labels: help wanted, good first issue, Hacktoberfest
+labels: Hacktoberfest, Up-for-Grabs, good first issue, help wanted
 assignees: ''
 
 ---
