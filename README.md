@@ -34,6 +34,7 @@ Please read [CONTRIBUTING.md](https://github.com/AshishOhri/Yet_Another_Algorith
 
 <table>
   <tr>
+    <td align="center"><a href="https://github.com/pratikghule"><img src="https://avatars3.githubusercontent.com/u/19855008?s=460&v=4" width="100px;" alt="Pratik Ghule"/><br /><sub><b>Pratik Ghule</b></sub></a></td>
     <td align="center"><a href="https://github.com/iam-Shashank"><img src="https://avatars0.githubusercontent.com/u/34963991?s=460&v=4" width="100px;" alt="Shashank Agrawal"/><br /><sub><b>Shashank Agrawal</b></sub></a></td>
     <td align="center"><a href="https://github.com/AshishOhri"><img src="https://avatars1.githubusercontent.com/u/44030156?s=460&v=4" width="100px;" alt="Ashish Ohri"/><br /><sub><b>Ashish Ohri</b></sub></a></td>
     <td align="center"><a href="https://github.com/subhahu123"><img src="https://avatars0.githubusercontent.com/u/34541684?s=460&v=4" width="100px;" alt="Subhahu Jain"/><br /><sub><b>Subhahu Jain</b></sub></a></td>
