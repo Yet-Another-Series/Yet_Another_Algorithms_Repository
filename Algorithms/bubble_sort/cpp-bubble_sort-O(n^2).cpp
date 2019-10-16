@@ -1,5 +1,4 @@
 #include<iostream>
-using namespace std;
 #define MAX 100 
 int* BubbleSort(int *a,int n){
 	int i,j,temp;
@@ -18,18 +17,17 @@ int* BubbleSort(int *a,int n){
 int main()
 {
 	int a[MAX],n,i;
-	cout<<"Enter the size of array: ";
-	cin>>n;
-	cout<<"Enter the array elements: "; 
+	std::cout<<"Enter the size of array: ";
+	std::cin>>n;
+	std::cout<<"Enter the array elements: "; 
 	
 	for(i=0;i<n;++i)
-		cin>>a[i];
+		std::cin>>a[i];
 		
 	BubbleSort(a,n);
 	
-	cout<<"Array after bubble sort:";
+	std::cout<<"Array after bubble sort:";
 	for(i=0;i<n;++i)
-		cout<<" "<<a[i];
-		
-	return 0;
+		std::cout<<" "<<a[i];
+		return 0;
 }
