@@ -1,94 +1,166 @@
-#include<cstdio>
+#include <bits/stdc++.h>
+using namespace std;
 
-int heap[1024];
-int ptr;
-void add(int num){
-    heap[ptr] = num;
-    int nowPtr = ptr;
-    while(nowPtr != 0){
-        if(heap[nowPtr] <= heap[(nowPtr-1)/2]){
-            break;
-        }
-        else{
-            int x = heap[nowPtr];
-            heap[nowPtr] = heap[(nowPtr-1)/2];
-            heap[(nowPtr-1)/2] = x;
-            nowPtr = (nowPtr-1)/2;
+class MaxHeap {
+private:
+    int *arr;
+    int capacity;
+    int size;
+
+    int parent(int i) {
+        if (i == 0) {
+            return 0;
+        } else {
+            return (i - 1) / 2;
         }
     }
-    ptr++;
-}
-int pop(){
-    int output = heap[0];
-    heap[0] = heap[ptr-1];
-    int nowptr = 0;
-    while(true){
-        if(nowptr*2+1 >= ptr){
-            break;
+    int Lchild(int i) {
+        return 2 * i + 1;
+    }
+    int Rchild(int i) {
+        return 2 * i + 2;
+    }
+    bool isLeaf(int i) {
+        if (i >= size)
+            return true;
+        else
+            return false;
+    }
+    void ShiftUp(int i) {
+        if (i == 0)
+            return;
+        int p_index = parent(i);
+
+        if (arr[p_index] < arr[i]) {
+            swap(arr[p_index], arr[i]);
+            ShiftUp(p_index);
         }
-        else if(nowptr*2+2 == ptr){
-            if(heap[nowptr] > heap[nowptr*2+1])break;
-            else{
-                int temp = heap[nowptr];
-                heap[nowptr] = heap[nowptr*2+1];
-                heap[nowptr*2+1] = temp;
-                break;
-            }
+    }
+    void ShiftDown(int i) {
+        int l = Lchild(i);
+        int r = Rchild(i);
+
+        if (isLeaf(l))
+            return;
+
+        int max_index = i;
+        if (arr[l] > arr[i]) {
+            max_index = l;
         }
-        else{
-            if(heap[nowptr] >= heap[nowptr*2+1] && heap[nowptr] >= heap[nowptr*2+2]){
-                break;
-            }
-            else if(heap[nowptr*2+1] > heap[nowptr*2+2]){
-                int temp = heap[nowptr];
-                heap[nowptr] = heap[nowptr*2+1];
-                heap[nowptr*2+1] = temp;
-                nowptr = nowptr*2+1;
-            }
-            else{
-                int temp = heap[nowptr];
-                heap[nowptr] = heap[nowptr*2+2];
-                heap[nowptr*2+2] = temp;
-                nowptr = nowptr*2 +2;
-            }
-            
+        if (!isLeaf(r) && arr[r] > arr[max_index]) {
+            max_index = r;
         }
 
+        if (max_index != i) {
+            swap(arr[max_index], arr[i]);
+            ShiftDown(max_index);
+        }
+        return;
     }
 
-    ptr--;
-    return output;
-}
-
-void print(){
-    for(int i=0;i<ptr;i++){
-        printf("%d ", heap[i]);
+public:
+    MaxHeap(int c) {
+        arr = new int[c];
+        this->capacity = c;
+        this->size = 0;
     }
-    printf("\n");
-}
+    void EnsureSize() {
+        if (size == capacity) {
+            capacity *= 2;
+            return;
+        }
+    }
+    int GetSize() {
+        return size;
+    }
+    int GetMax() {
+        for (int i = 0; i < size; i++) {
+            cout << arr[i] << " ";
+        }
+        cout << endl;
+        return arr[0];
+    }
+    void Insert(int k) {
+        EnsureSize();
+        arr[size] = k;
+        ShiftUp(size);
+        size++;
+        for (int i = 0; i < size; i++) {
+            cout << arr[i] << " ";
+        }
+        cout << endl;
+    }
+    int extractMax() {
+        int max = arr[0];
+        arr[0] = arr[size - 1];
+        size--;
+        ShiftDown(0);
+        return max;
+    }
+    int DeleteAt(int k) {
+        int r = arr[k];
+        arr[k] = arr[size - 1];
+        size--;
 
+        int p = parent(k);
+        if (k == 0 || arr[k] < arr[p])
+            ShiftDown(k);
+        else
+            ShiftUp(k);
 
+        return r;
+    }
 
-int main(){
-    ptr = 0;
-    
-    //example
+    //complexity = log n
+    void Heapify(int *array, int len) {
+        size = len;
+        arr = array;
 
-    add(10);
-    add(8);
-    add(5);
-    add(3);
-    add(7);
-    add(12);
-    add(9);
-    add(3);
-    add(7);
-    add(12);
-    print();
-    printf("%d\n", pop());
-    print();
-    printf("%d\n", pop());
-    print();
+        for (int i = size / 2 - 1; i >= 0; --i) {
+            ShiftDown(i);
+        }
+    }
+    void HeapSort() {
+        int s = size;
+        while (size != 0) {
+            int m = arr[0];
+            swap(arr[0], arr[size - 1]);
+            size--;
+            ShiftDown(0);
+        }
+        size = s;
+    }
+};
 
+int main() {
+    MaxHeap H(5);
+    MaxHeap H2(10);
+    H.Insert(2);
+    H.Insert(13);
+    H.Insert(8);
+    H.Insert(1);
+    H.Insert(5);
+    H.Insert(10);
+    H.Insert(4);
+    H.Insert(20);
+    H.Insert(30);
+    H.Insert(15);
 
+    H.DeleteAt(0);
+    H.HeapSort();
+    cout << "\nSorted : " << endl;
+    H.GetMax();
+    cout << endl;
+
+    int a[] = {10, 20, 50, 30, 40, 5, 15, 25};
+
+    H2.Heapify(a, 8);
+    H2.DeleteAt(1);
+    H2.GetMax();
+    H2.HeapSort();
+    cout << "Heapify-^ \n\nSorted : " << endl;
+    H2.GetMax();
+    cout << endl;
+
+    return 0;
 }
