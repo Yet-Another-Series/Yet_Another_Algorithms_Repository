@@ -22,7 +22,8 @@ _In case you're interested, here's a quick guide to Git. [Link](https://rogerdud
 ## File and Folder Naming Guidelines:
 
 * File name should be in **full lowercase**.
-* Names for referencing all 5 languages should be as follows: python, c, cpp, java, js
+* Names for referencing all 5 languages should be as follows: **python, c, cpp, java, js**. 
+* **Please use cpp** for C++ file naming.
 * For Data Structures, file names should be of the format: 
 ```
 <Language>-<Data Structure>-<Version Number>
