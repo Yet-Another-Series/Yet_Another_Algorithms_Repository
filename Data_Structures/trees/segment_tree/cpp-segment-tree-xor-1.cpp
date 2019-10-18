@@ -12,6 +12,21 @@ struct node combine(struct node a,struct node b){
 	return c;
 }
 
+void update(struct node *tree,int l,int r,int pos,int new_val,int treenode){
+	if(l==r){
+		tree[treenode].ans=new_val;
+		return;
+	}
+	int mid=(l+r)>>1;
+
+	if(pos<=mid)
+		update(tree,l,mid,pos,new_val,2*treenode);
+	else
+		update(tree,mid+1,r,pos,new_val,2*treenode+1);
+
+	tree[treenode]=combine(tree[2*treenode],tree[2*treenode+1]);
+}
+
 struct node query(struct node *tree,int l,int r,int ql,int qr,int treenode){
 	struct node tem;
 	tem.ans=0;
@@ -42,6 +57,11 @@ void buildtree(long long *a,struct node *tree,int l,int r,int treenode){
 
 int main(void){
 
+	#ifndef ONLINE_JUDGE
+	freopen("input01.txt","r",stdin);
+	freopen("output01.txt","w",stdout);
+	#endif
+
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.flush();
@@ -60,9 +80,14 @@ int main(void){
 	int m;
 	cin >> m;
 	for(int i=0;i<m;i++){
-		int l,r;
-		cin >> l >> r;
-    long long ans = query(tree,0,n-1,l-1,r-1,1).ans;
-    cout << ans << endl;	
+		int t,l,r;
+		cin >> t >> l >> r;
+		if(t==1){
+			long long ans = query(tree,0,n-1,l-1,r-1,1).ans;
+			cout << ans << endl;	
+		}
+		else{
+			update(tree,0,n-1,l-1,r,1);
+		}
 	}
 }
