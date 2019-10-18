@@ -1,0 +1,24 @@
+//Gustavo Tabima 
+import java.util.Arrays;
+import java.util.Scanner;
+
+class BubbleSort {
+int[] NumberList;
+	/**
+	 * This sorting organizes a list of natural numbers  greater to less
+	 * pre: there's a list of natural numbers initialized
+	 */
+	public void bubbleSort() {
+		for(int i= 0; i < NumberList.length;i++) {
+			for(int j = 0; j< i;j++) {
+				if(NumberList[j]>NumberList[j+1]) {
+					int temporal = NumberList[j];
+					NumberList[j] = NumberList[j+1];
+					NumberList[j+1] = temporal;
+				}
+			}
+			
+		}
+	}
+
+}
