@@ -57,11 +57,6 @@ void buildtree(long long *a,struct node *tree,int l,int r,int treenode){
 
 int main(void){
 
-	#ifndef ONLINE_JUDGE
-	freopen("input01.txt","r",stdin);
-	freopen("output01.txt","w",stdout);
-	#endif
-
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.flush();
@@ -81,7 +76,7 @@ int main(void){
 	cin >> m;
 	for(int i=0;i<m;i++){
 		int t,l,r;
-		cin >> t >> l >> r;
+		cin >> t >> l >> r;                                        //t=1 for query and t=0 for update
 		if(t==1){
 			long long ans = query(tree,0,n-1,l-1,r-1,1).ans;
 			cout << ans << endl;	
