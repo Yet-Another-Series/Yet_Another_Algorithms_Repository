@@ -3,8 +3,8 @@ using namespace std;
 struct node{
  int data;
  struct node*next;
-};
-// used for inserting datas in the linked list
+}; 
+// used for inserting datas in the linked-list
 void push(struct node**head,int e)
 {
     struct node*root=(struct node*)malloc(sizeof (struct node));
