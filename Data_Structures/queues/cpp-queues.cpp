@@ -86,17 +86,17 @@ class queue{
         
 };
 
-int main(){
+/*int main(){
     queue<int> q;
-    /*for(int i=0;i<5;i++) q.push(i);
+    for(int i=0;i<5;i++) q.push(i);
     for(int i=0;i<5;i++){
          cout<<q.front()<<" ";
          q.pop();
-    }*/
+    }
 
-    /*q.push(5);q.push(2);q.push(1);q.push(9);
+    q.push(5);q.push(2);q.push(1);q.push(9);
     while(!q.empty()){
         cout<<q.front()<<" ";
         q.pop();
-    }*/
-}
+    }
+}*/
