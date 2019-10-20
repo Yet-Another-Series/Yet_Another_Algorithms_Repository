@@ -5,13 +5,13 @@ int main()
     int n;
     cin>>n;
     int a=0,b=1,sum;
-    for(int i=1;i<=n;i++)
+    for(int i=0;i<n;i++)
     {
-        if(i==1)
+        if(i==0)
         {
             cout<<a<<" ";
         }
-        else if(i==2)
+        else if(i==1)
         {
             cout<<b<<" ";
         }
