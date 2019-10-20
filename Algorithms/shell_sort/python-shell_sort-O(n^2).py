@@ -1,4 +1,4 @@
-#SHELL-SORT USING PYTHON
+#SHELL-SORT USING PYTHON.
 def shellSort(arr): 
     n = len(arr) 
     gap = int(n/2)
