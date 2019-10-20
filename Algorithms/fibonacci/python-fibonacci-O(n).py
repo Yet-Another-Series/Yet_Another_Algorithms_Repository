@@ -1,16 +1,17 @@
-# FIBONACCI SEQUENCE
-n=int(input())
-a=0
-b=1
+#FIBBONACI USING DP
 
-
-for i in range(0,n):
-    if i==0:
-        print(a,end=' ')
-    elif i==1:
-        print(b,end=' ')
+def fibonacci(n):  
+    a=[0,1]
+    if(n==1):
+        return [1]
     else:
-        s=a+b
-        a=b
-        b=s
-        print(s,end=' ')
+        for i in range(2,n):
+            a.append(a[i-1]+a[i-2])
+        return a
+
+n=int(input())
+if n==0:
+    print(n)
+else:
+    x=(fibonacci(n))
+    print(*x)
