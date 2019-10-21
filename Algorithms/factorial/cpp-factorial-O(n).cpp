@@ -3,8 +3,8 @@ using namespace std;
 
 class factorial
 {
-	int num;
-	int pr;
+	long long num;
+	long long int  pr;
 	public: factorial()
 	{
 		num = 0;
@@ -15,6 +15,11 @@ class factorial
 	{
 		cout<<"Please input an Integer number "<<endl;
 		cin>>num;
+		if(num<0)
+		{
+			cout<<"Factorial of negative number doesn't exist."<<endl;
+		input();
+		}
 	}
 	
 	void calculate()
@@ -40,3 +45,4 @@ int main()
 	ob.display();
 }
 		
+
