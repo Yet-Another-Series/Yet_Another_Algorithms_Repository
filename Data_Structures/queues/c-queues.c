@@ -117,14 +117,14 @@ void display_list(t_queue *head)
 
 /**
 */
-// int main()
-// {
-//     t_queue *test = NULL;
-//     emplace(&test, 69);
-//     pop(&test);
-//     push(&test, 1);
-//     push(&test, 5);
-//     printf("%d\n", size(test));
-//     display_list(test);
-//     return (0);
-// }
+ int main()
+ {
+     t_queue *test = NULL;
+     emplace(&test, 69);
+     pop(&test);
+     push(&test, 1);
+     push(&test, 5);
+     printf("%d\n", size(test));
+     display_list(test);
+     return (0);
+ }
