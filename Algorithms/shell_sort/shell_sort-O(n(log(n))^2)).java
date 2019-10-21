@@ -42,7 +42,7 @@ public class shellSort {
     }
     public static void main(String[] args)
     {
-        int[] test = {1,4,345,2};
+        int[] test = {1,4,345,-3,0,73,50,8,2};
         shellSort.ShellSort(test);
 
 
