@@ -1,4 +1,4 @@
-/* Quick Sort: Merge and sort algorithm
+/* Quick Sort: Divide and conquer algorithm
                 Worst case O(n^2)
                 Average Case O(nlogn)
 */
