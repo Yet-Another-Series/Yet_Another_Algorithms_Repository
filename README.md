@@ -1,4 +1,4 @@
-![AUR license](https://img.shields.io/aur/license/pac)
+![APM](https://img.shields.io/apm/l/vim-mode)
 ![GitHub contributors](https://img.shields.io/github/contributors/AshishOhri/Yet_Another_Algorithms_Repository)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/AshishOhri/Yet_Another_Algorithms_Repository)
 ![GitHub issues](https://img.shields.io/github/issues/AshishOhri/Yet_Another_Algorithms_Repository)
