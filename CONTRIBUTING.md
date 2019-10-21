@@ -45,14 +45,14 @@ _In case you're interested, here's a quick guide to Git. [Link](https://rogerdud
 * Currently we are accepting contributions in **C, C++, Java, Python and JavaScript**.
 * Use meaningful variable, method and function names and comments.
 * No profanity.
-* If you feel you can improve upon an implementation( with regard to coding practices, complexity), then you can submit your code keeping in mind the File & Folder Naming Guidelines.
-<br>Please NOTE: In case, same implementation of an algorithm is submitted by someone else and it gets accepted, then your contribution won't be merged ( to avoid duplicates ).
+* If you feel you can improve upon an implementation( with regard to coding practices, complexity), then you can submit your code keeping in mind the File & Folder Naming Guidelines.<br><br>
+Please NOTE: In case, same implementation of an algorithm is submitted by someone else and it gets accepted, then your contribution won't be merged ( to avoid duplicates ).
 
 ## Various Ways to Contribute:
 * implementing new algorithms in the repo, under the right section. Make a new section for it if it doesn't fall under any section. Make sure that your implementation works.
 * optimizing or improving the existing algorithms.
 * adding a different solution for the problem.
-* finding and fixing bugs.<br>
+* finding and fixing bugs.<br><br>
 Also NOTE: In case an issue already exists regarding your pull request make sure to # (hashtag) the issue number (eg: #1)
 __________________________________
 
