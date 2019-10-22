@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+
+
+/***
+
+
+arr represents the array of integers in which your key resides
+length is the total size of array
+key is the key you want to find
+
+
+
+***/
+
+
+
+int linear_search(int* arr,int length,int key){
+if (length==0){
+
+return -1;
+
+}
+else if (arr[length-1] == key)
+  {
+  return length-1;
+  }
+else{
+
+return linear_search(arr,length-1,key);
+
+}
+
+
+
+
+}
