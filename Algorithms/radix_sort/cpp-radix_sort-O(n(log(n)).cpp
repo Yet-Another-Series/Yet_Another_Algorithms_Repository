@@ -3,8 +3,6 @@
 #include <vector>
 #include <iostream>
 
-//templates used to allow most containers to be used, as long as they contain only integral types 
-// (short, long, int, etc)
 template <typename RandomIterator>
 void radixSort(RandomIterator first, RandomIterator last, int bucket_count)
 {
@@ -15,12 +13,12 @@ void radixSort(RandomIterator first, RandomIterator last, int bucket_count)
 	static_assert(std::is_integral<ValueType>::value,
 		"container can only have integral types ");
 
-	ValueType maxValue = *(std::max_element(first, last));
+	ValueType max_value = *(std::max_element(first, last));
 	ValueType div{};
 	std::vector<std::vector<ValueType>> buckets(bucket_count);
 
 	ValueType i = 1;
-	while (maxValue != 0)
+	while (max_value != 0)
 	{
 		// move elements into the correct buckets
 		for (RandomIterator iterator = first; iterator != last; ++iterator)
@@ -45,15 +43,17 @@ void radixSort(RandomIterator first, RandomIterator last, int bucket_count)
 			bucket.clear();
 		}
 
-		maxValue /= 10;
+		max_value /= 10;
 		i *= 10;
 	}
 }
 
-/// <param name="container">The container that contains your list of elements of INTEGRAL TYPE. Can be short, long, int, etc.</param>
-/// 
-/// Use this function for implementation, the function is overloaded and will use the 
-/// correct function definition based on the parameters passed
+/**
+ * \brief Use this function for implementation, the function is overloaded and will use the correct function definition based on the parameters passed.
+ * \tparam IntegralTypeContainer Template that will handle most (hopefully) containers as long as they contain only integral types.
+ * \param container The container that contains your list of elements.
+ * \param bucket_count The number of buckets you would like to use.
+ */
 template <typename IntegralTypeContainer>
 void radixSort(IntegralTypeContainer& container, int bucket_count)
 {
@@ -61,8 +61,10 @@ void radixSort(IntegralTypeContainer& container, int bucket_count)
 }
 
 template <typename IntegralTypeContainer>
-void generateRandomVector(IntegralTypeContainer& input_array, int array_size) {
-	for (size_t i = 0; i < array_size; ++i) {
+void generateRandomVector(IntegralTypeContainer& input_array, int array_size)
+{
+	for (size_t i = 0; i < array_size; ++i)
+	{
 		input_array.push_back(rand() % 10000);
 	}
 }
@@ -75,7 +77,6 @@ void copyVector(std::vector<IntegralTypeContainer>& array_to_copy, std::vector<I
 		array_to_copy_to.push_back(elem);
 	}
 }
-
 
 
 int main()
