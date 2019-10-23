@@ -1,12 +1,10 @@
 #include <stdio.h>
-#define MAX 100005
+#include <stdlib.h>
 
-long long int arr[MAX];
-
-long long int binarySearch(long long int A[], long long int N, long long int ele) {
+long long int binarySearch(long long int *A, long long int N, long long int ele) {
     long long int beg, mid, end, flag = -1;
     beg = 0;
-    end = N - 1;
+    end = N-1;
     while(beg <= end) {
         mid = (beg + end) / 2;
         if(A[mid] == ele) {
@@ -22,11 +20,12 @@ long long int binarySearch(long long int A[], long long int N, long long int ele
 }
 
 int main() {
-    long long int N, S;
+    long long int N, S, i, *arr;
     printf("\nEnter number of elements of array: ");
     scanf("%lld", &N);
+    arr = (int *)malloc(sizeof(int)*N);
     printf("\nEnter elements of array: ");
-    for(long long int i = 0 ; i < N ; i++) {
+    for(i = 0 ; i < N ; i++) {
         scanf("%lld", &arr[i]);
     }
     printf("\nEnter number of searches: ");
@@ -44,5 +43,6 @@ int main() {
         }
         S--;
     }
+    free(arr);
     return 0;
 }
