@@ -43,12 +43,33 @@ int push(int data) {
 }
 
 int main() {
-  
-   printf("Element at top of the stack: %d\n" ,peek());
-   printf("Elements: \n");
-   while(!isempty()) {
-      int data = pop();
-      printf("%d\n",data);
+  int val=1;
+   int data;
+   while (val!=0){
+      printf(" Select 1 to push ");
+      printf(" Select 2 to pop ");
+      printf(" Select 3 to peek ");
+      printf(" Select 0 to Exit ");
+      scanf("%d",&val);
+      switch(val){
+         case 1: 
+            printf("Enter value : ");
+            scanf("%d", &data);
+            push(data);
+            break;
+         case 2:
+            data=pop();
+            printf("Popped data : %d", data);
+            break;
+         case 3 :
+            data=peek();
+            printf("The top value is : %d", data);
+            break;
+         case 0:
+            break;
+         default:
+            printf("Invalid Input");
+      }
    }
 
    printf("Stack full: %s\n" , isfull()?"true":"false");
