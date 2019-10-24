@@ -1,7 +1,9 @@
-![AUR license](https://img.shields.io/aur/license/pac)
+![APM](https://img.shields.io/apm/l/vim-mode)
 ![GitHub contributors](https://img.shields.io/github/contributors/AshishOhri/Yet_Another_Algorithms_Repository)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/AshishOhri/Yet_Another_Algorithms_Repository)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues-raw/AshishOhri/Yet_Another_Algorithms_Repository)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AshishOhri/Yet_Another_Algorithms_Repository)
+![GitHub issues](https://img.shields.io/github/issues/AshishOhri/Yet_Another_Algorithms_Repository)
+[![CodeFactor](https://www.codefactor.io/repository/github/Yet-Another-Series/yet_another_algorithms_repository/badge)](https://www.codefactor.io/repository/github/ashishohri/yet_another_algorithms_repository)
+![GitHub forks](https://img.shields.io/github/forks/AshishOhri/Yet_Another_Algorithms_Repository?style=social)
 # Yet_Another_Algorithms_Repository
 <i>Beginners are welcome to contribute to this repository!</i>
 <p align="center">
@@ -15,6 +17,7 @@ For more information follow this link : https://hacktoberfest.digitalocean.com/<
 ## Getting Started
 
 * This repository is **beginner friendly** and anyone can add new algorithms and data structures. 
+* Please **follow** [File and Folder Naming Guidelines](https://github.com/AshishOhri/Yet_Another_Algorithms_Repository/blob/master/CONTRIBUTING.md#File-and-Folder-Naming-Guidelines).
 * Also, everyone is free to contribute in any of the the languages mentioned in the <a href="https://github.com/AshishOhri/Yet_Another_Algorithms_Repository/blob/master/CONTRIBUTING.md">Contributing Guidelines</a>.
 
 ### Prerequisites
@@ -33,6 +36,7 @@ Please read [CONTRIBUTING.md](https://github.com/AshishOhri/Yet_Another_Algorith
   <tr>
     <td align="center"><a href="https://github.com/iam-Shashank"><img src="https://avatars0.githubusercontent.com/u/34963991?s=460&v=4" width="100px;" alt="Shashank Agrawal"/><br /><sub><b>Shashank Agrawal</b></sub></a></td>
     <td align="center"><a href="https://github.com/AshishOhri"><img src="https://avatars1.githubusercontent.com/u/44030156?s=460&v=4" width="100px;" alt="Ashish Ohri"/><br /><sub><b>Ashish Ohri</b></sub></a></td>
+    <td align="center"><a href="https://github.com/subhahu123"><img src="https://avatars0.githubusercontent.com/u/34541684?s=460&v=4" width="100px;" alt="Subhahu Jain"/><br /><sub><b>Subhahu Jain</b></sub></a></td>
   </tr>
  </table>
 

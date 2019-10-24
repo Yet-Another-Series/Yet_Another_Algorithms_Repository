@@ -25,7 +25,7 @@ def Enqueue(Key):
         Queue.front=node
         Queue.back=node
     else:
-        if Queue.front.next==None:
+        if Queue.front.next is None:
             Queue.front.next=node
         else:
             Queue.back.next=node
@@ -34,26 +34,26 @@ def Enqueue(Key):
 def KeyFront():
     if Empty():
         return "Underflow"
-    else:
-        return Queue.front.data
+    
+    return Queue.front.data
 
 def Dequeue():
     if Empty():
         return "Underflow"
-    else:
-        if Queue.front.next==None:
-            Queue.back=None
-        _=Queue.front
-        Queue.front=Queue.front.next
-        return _.data
+    
+    if Queue.front.next is None:
+        Queue.back=None
+    _=Queue.front
+    Queue.front=Queue.front.next
+    return _.data
 def Empty():
-    return Queue.front==None
+    return Queue.front is None
 def Disp():
     if Empty():
         print(None)
     else:
         temp=Queue.front
-        while temp!=None:
+        while temp is not None:
             print(temp.data)
             temp=temp.next
 
