@@ -1,0 +1,13 @@
+//Recursive Fibonacci Sequence Solution
+function fibRec(n) {
+  //base case
+  if (n < 2) {
+    return n;
+  }
+  // keep adding until value of n becomes less than 2
+  return fibRec(n - 1) + fibRec(n - 2);
+}
+/*
+console log any number for testing
+console.log(fibRec(10));
+*/
