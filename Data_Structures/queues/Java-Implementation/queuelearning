@@ -1,0 +1,20 @@
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class Queue {
+
+	public static void main(String[] args) {
+
+		Queue mainQueue = new LinkedList();
+		
+		mainQueue.add("The Joy");
+		mainQueue.add("of the Lord");
+		mainQueue.add("is my strength");
+		
+		System.out.println("All you need: " + mainQueue);
+		
+		}
+		
+	}
+
+}
