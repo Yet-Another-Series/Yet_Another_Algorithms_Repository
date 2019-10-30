@@ -1,4 +1,3 @@
-
 const array = [2, 3, 5, 6, 1, 90, 6];
 
 console.log(`Array disordered [${array}]`);
