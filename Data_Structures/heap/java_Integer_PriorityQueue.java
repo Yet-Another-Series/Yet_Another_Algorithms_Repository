@@ -12,7 +12,7 @@ public class java_Integer_PriorityQueue {
 
 	public static void main(String[] args) {
 		java_Integer_PriorityQueue q = new java_Integer_PriorityQueue();
-		int[] ary = {3,5,2,1,4,67,35,25};
+		int[] ary = {3,5,2,1,4,67,35,25,100,150,299};
 		for(int k : ary) { 
 			q.offer(k);
 			System.out.println(q.toString());
