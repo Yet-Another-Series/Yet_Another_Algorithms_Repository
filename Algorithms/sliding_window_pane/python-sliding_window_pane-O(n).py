@@ -1,21 +1,15 @@
-def maxSum(num_list, n, k):
-    if n < k:
-        print("Invalid")
-        return -1
+def maxSum(arr, n, k): 
+	max_sum = INT_MIN ; 
+	for i in range(n - k + 1): 
+		current_sum = 0; 
+		for j in range(k): 
+			current_sum = current_sum + arr[i + j]; 
+		max_sum = max(current_sum, max_sum ); 
 
-    max_sum = 0
-    for i in range(k):
-        max_sum += num_list[i]
+	return max_sum; 
 
-    window_sum = max_sum
-    for i in range(k,n):
-        window_sum += num_list[i] - num_list[i - k]
-        max_sum = max(max_sum, window_sum)
-    return max_sum
+k = 4
+n = int(input())
+arr=[for x in input().split()]
+print(maxSum(arr, n, k))
 
-
-if __name__ ==  '__main__':
-    num_list = [1, 4, 2, 10, 2, 3, 1, 0, 20]
-    k = 4
-    n = len(num_list)
-    print(maxSum(num_list, n, k))
