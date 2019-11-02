@@ -46,6 +46,7 @@ Please read [CONTRIBUTING.md](https://github.com/AshishOhri/Yet_Another_Algorith
   <tr>
     <td align="center"><a href="https://github.com/anujji1999"><img src="https://avatars1.githubusercontent.com/u/33349650?s=460&v=4" width="100px;" alt="Anuj Gupta"/><br /><sub><b>Anuj Gupta</b></sub></a></td>
    <td align="center"><a href="https://github.com/Nikunj-Aggarwal"><img src="https://avatars3.githubusercontent.com/u/42604363?s=400&v=4" width="100px;" alt="Nikunj Aggarwal"/><br /><sub><b>Nikunj Aggarwal</b></sub></a></td>
+   <td align="center"><a href="https://github.com/sammjainn"><img src="https://avatars3.githubusercontent.com/u/46999417?s=400&v=4" width="100px;" alt="Samriddhi Jain"/><br /><sub><b>Samriddhi Jain</b></sub></a></td>
   </tr>
  </table>
 
