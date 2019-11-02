@@ -64,3 +64,11 @@ class graph{
 
         }
 };
+
+
+int main(){
+    graph g(5,5);
+    g.__init__();
+    g.optimized_dijkstra(0);
+    return 0;
+}
