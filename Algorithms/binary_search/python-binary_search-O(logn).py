@@ -19,7 +19,7 @@ def binary_search(arr, l, r, x):
 	# was not present
 	return -1
 
-arr = list(eval(input("Enter the sorted array: ")))
+arr = list(map(int, input("Enter the sorted array: ").split()))
 x = int(input("Enter the number to search: "))
 
 # Function call
