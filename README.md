@@ -1,0 +1,64 @@
+![APM](https://img.shields.io/apm/l/vim-mode)
+![GitHub contributors](https://img.shields.io/github/contributors/AshishOhri/Yet_Another_Algorithms_Repository)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AshishOhri/Yet_Another_Algorithms_Repository)
+![GitHub issues](https://img.shields.io/github/issues/AshishOhri/Yet_Another_Algorithms_Repository)
+[![CodeFactor](https://www.codefactor.io/repository/github/Yet-Another-Series/yet_another_algorithms_repository/badge)](https://www.codefactor.io/repository/github/ashishohri/yet_another_algorithms_repository)
+![GitHub forks](https://img.shields.io/github/forks/AshishOhri/Yet_Another_Algorithms_Repository?style=social)
+# Yet_Another_Algorithms_Repository
+<i>Beginners are welcome to contribute to this repository!</i>
+<p align="center">
+ <a href="https://hacktoberfest.digitalocean.com/">
+<img src='images/hacktoberfest-img.svg' width="400" height="400" align="center">
+  </a>
+</p>
+:tada: :sparkles:<i>Contribute now and get a chance to earn a free tee!:sparkles: :tada:<br>
+For more information follow this link : https://hacktoberfest.digitalocean.com/</i>
+
+## Getting Started
+
+* This repository is **beginner friendly** and anyone can add new algorithms and data structures. 
+* Please **follow** [File and Folder Naming Guidelines](https://github.com/AshishOhri/Yet_Another_Algorithms_Repository/blob/master/CONTRIBUTING.md#File-and-Folder-Naming-Guidelines).
+* Also, everyone is free to contribute in any of the the languages mentioned in the <a href="https://github.com/AshishOhri/Yet_Another_Algorithms_Repository/blob/master/CONTRIBUTING.md">Contributing Guidelines</a>.
+
+### Prerequisites
+
+Anyone with a knack for programming is free to push!
+
+
+## Contributing Guidelines
+
+Please read [CONTRIBUTING.md](https://github.com/AshishOhri/Yet_Another_Algorithms_Repository/blob/master/CONTRIBUTING.md) for details on how to get started and submit pull requests to us.
+
+
+## Authors
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/iam-Shashank"><img src="https://avatars0.githubusercontent.com/u/34963991?s=460&v=4" width="100px;" alt="Shashank Agrawal"/><br /><sub><b>Shashank Agrawal</b></sub></a></td>
+    <td align="center"><a href="https://github.com/AshishOhri"><img src="https://avatars1.githubusercontent.com/u/44030156?s=460&v=4" width="100px;" alt="Ashish Ohri"/><br /><sub><b>Ashish Ohri</b></sub></a></td>
+    <td align="center"><a href="https://github.com/subhahu123"><img src="https://avatars0.githubusercontent.com/u/34541684?s=460&v=4" width="100px;" alt="Subhahu Jain"/><br /><sub><b>Subhahu Jain</b></sub></a></td>
+  </tr>
+ </table>
+ 
+ ## Maintainers
+ 
+ <table>
+  <tr>
+    <td align="center"><a href="https://github.com/anujji1999"><img src="https://avatars1.githubusercontent.com/u/33349650?s=460&v=4" width="100px;" alt="Anuj Gupta"/><br /><sub><b>Anuj Gupta</b></sub></a></td>
+   <td align="center"><a href="https://github.com/Nikunj-Aggarwal"><img src="https://avatars3.githubusercontent.com/u/42604363?s=400&v=4" width="100px;" alt="Nikunj Aggarwal"/><br /><sub><b>Nikunj Aggarwal</b></sub></a></td>
+   <td align="center"><a href="https://github.com/sammjainn"><img src="https://avatars3.githubusercontent.com/u/46999417?s=400&v=4" width="100px;" alt="Samriddhi Jain"/><br /><sub><b>Samriddhi Jain</b></sub></a></td>
+  </tr>
+ </table>
+
+## Contributors
+
+See also the list of [contributors](https://github.com/AshishOhri/Yet_Another_Algorithms_Repository/graphs/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* <a href="https://github.com/all-contributors">all-contributors</a>
+* <a href="https://gist.github.com/PurpleBooth/109311bb0361f32d87a2">PupleBooth</a>
