@@ -12,11 +12,14 @@ int main()
 		cin>>s;
 		a.push_back(s);
 	}
+
+	sort(a.begin(), a.end());
+
 	cin>>n;
 	l=0;
 	h=a.size()-1;
 
-	while(l<h)
+	while(l<=h)
 	{
 		mid=(l+h)/2;
 		if(a[mid]>n) {h=mid-1;}
